@@ -1,88 +1,93 @@
-<h1 align="center">🛡️ Projeto Educacional: Simulação de Malware em Python</h1>
+<h1 align="center">🛡️💀 Simulação de Malware em Python – Projeto Hacker Educacional 💀🛡️</h1>
+
 <p align="center">
-  <strong>Ransomware Simulado • Keylogger Simulado • Segurança & Defesa</strong><br>
-  <em>Projeto criado unicamente para estudo em ambiente controlado.</em>
+  <strong>Autor: Josué A. S. C. A</strong><br>
+  <strong>Cybersecurity • Ethical Hacking • Python Malware Simulation</strong><br>
+  <em>Estudo prático e controlado sobre ataques e defesa digital.</em>
 </p>
 
 ---
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Cybersecurity-Study-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Ethical-Hacking-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-3.10-0A0F0D?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cybersecurity-HackerStyle-00FF00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Malware%20Simulation-Learning-FF0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Active-0033FF?style=for-the-badge"/>
 </p>
 
 ---
 
-## 📌 Sobre o Projeto
+# 🕶️ Sobre o Projeto
 
-Este repositório demonstra **como malwares funcionam**, por meio de dois exemplos simulados em Python:
+Este repositório apresenta uma **simulação realista de malwares**, recriada para fins **puramente educacionais**, explorando:
 
-- 🔥 **Ransomware Simulado**  
-- 🎤 **Keylogger Simulado**
+- ☣️ **Ransomware Simulado**  
+- 👀 **Keylogger Simulado**  
+- 🛡️ **Estratégias Avançadas de Defesa**  
 
-Tudo isso foi feito exclusivamente para **aprendizado**, entendendo:
-- Como ameaças digitais atuam  
-- Como elas capturam/criptografam dados  
-- Como podemos nos defender de forma profissional  
+O objetivo é entender **como ataques funcionam** e **como bloqueá-los**, aplicando na prática conceitos de:
 
----
-
-# 🔥 1) Ransomware Simulado
-
-O script simula:
-- Criação de arquivos de teste  
-- Criptografia usando **Fernet**  
-- Mensagem de “resgate”  
-- Processo de descriptografia  
-
-**⚠️ Atenção:**  
-O código atua apenas em uma **pasta de teste**, garantindo segurança total.
+- Cibersegurança  
+- Engenharia reversa  
+- Python ofensivo e defensivo  
+- Análise de malware  
+- Proteção digital no mundo real  
 
 ---
 
-# 🎤 2) Keylogger Simulado
+# ☣️ 1) Ransomware Simulado
 
-Este módulo captura teclas digitadas e salva em `log.txt`.
+### 🧬 Funções implementadas:
+- Criação de arquivos de teste
+- Criptografia com **Fernet** (Chave simétrica)
+- Destruição temporária da leitura
+- Geração de mensagem simulada de resgate
+- Processo reversível de descriptografia (educacional)
 
-Versão simulada inclui:
-- Registro contínuo  
+> 🛑 Totalmente seguro: atua apenas em uma pasta isolada.
+
+---
+
+# 👁️ 2) Keylogger Simulado
+
+### 🧬 Características:
+- Captura silenciosa de teclas  
+- Registro em `log.txt`  
 - Execução discreta  
-- Envio por e-mail (opcional e seguro)  
+- Envio automático por e-mail (simulado / opcional)  
+- Comportamento semelhante a keyloggers reais, porém **seguro**  
 
 ---
 
-# 🛡️ 3) Reflexão de Defesa e Segurança  
+# 🛡️ 3) Defesa e Prevenção (Visão Hacker Profissional)
 
-Essa parte do projeto reforça como evitar infecções reais.  
-Com base nos experimentos, concluí que as melhores práticas são:
-
-### 🔒 Antivírus  
-Detecta comportamentos suspeitos e bloqueia malware.
-
-### 🔥 Firewall  
-Impede conexões externas indevidas (ótimo contra keyloggers).
-
-### 🧪 Sandboxing  
-Testar arquivos desconhecidos em ambiente isolado.
-
-### 💾 Backup  
-A arma mais poderosa contra ransomware.
-
-### 🧠 Boas práticas  
-- Não baixar arquivos piratas  
-- Cuidado com links suspeitos  
-- Atualizações constantes  
-- Autenticação de dois fatores  
-
-Essas medidas combinadas formam uma defesa sólida.
+Depois de analisar o comportamento dos malwares criados, listei as defesas mais eficazes:
 
 ---
 
-# 🚀 Como Executar
+## 🔒 **Antivírus & Anti-Malware**
+Monitoram processos, bloqueiam ameaças conhecidas e detectam ações suspeitas.
 
+## 🔥 **Firewall Avançado**
+Impedem keyloggers de enviar dados, bloqueiam portas suspeitas e limitam conexões não autorizadas.
+
+## 🎩 **Obfuscação & Engenharia Reversa (para entender ataques)**
+Saber como o atacante pensa = vantagem defensiva.
+
+## 🧪 **Sandboxing**
+Executar arquivos desconhecidos em ambientes isolados impede infecções no sistema real.
+
+## 💾 **Backups Estratégicos**
+Ransomware perde completamente a força quando há backup offline e criptografado.
+
+## 🧠 **Conscientização**
+O elo humano é sempre o mais vulnerável.  
+Treinar comportamento seguro vale mais que qualquer ferramenta.
+
+---
+
+# 🚀 Execução do Projeto
+
+### Instalar dependências:
 ```bash
-git clone https://github.com/SeuUsuario/SeuRepositorio.git
-cd SeuRepositorio
 pip install -r requirements.txt
